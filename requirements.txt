@@ -1,0 +1,18 @@
+# Packages used by the HelmNet notebooks (pinned/suggested versions)
+# Notes:
+# - `tensorflow` may require a specific wheel for macOS (e.g. tensorflow-macos) depending on your machine.
+# - `google-colab` is Colab-specific; install it only if you need Colab features locally.
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+tensorflow
+keras
+pillow
+
+# Optional / Colab-only
+google-colab
+
+# If you want stricter reproducibility, replace range pins with exact versions after testing.
